@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoko's Kitchen</title>
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    header {
+        text-align: center;
+        background-color: #ccc;
+        padding: 20px;
+    }
+
+    header img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        align-self: flex-start;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1.2em;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    .classes {
+        width: 65%;
+    }
+
+    .class-item {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+    }
+
+    .class-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .class-item h2 {
+        font-size: 1.5em;
+    }
+
+    .class-item p {
+        margin: 10px 0;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    .recipes, .contact {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+    }
+
+    .recipes ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .recipes ul li {
+        margin: 10px 0;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #ccc;
+        padding: 20px;
+    }
+</style>
+<body>
+    <div class="container">
+       
+        <header>
+            <img src="/Tuan02/img/logo.png" alt="Yoko's Kitchen Logo">
+            <h1>YOKO'S KITCHEN</h1>
+            <p>Japanese Cooking Classes</p>
+        </header>
+
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Catering</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        
+        <main>
+            <section class="classes">
+                <div class="class-item">
+                    <img src="/Tuan02/img/teriyaki.jpg" alt="Bok Choi">
+                    <h2><a href="#">Japanese Vegetarian</a></h2>
+                    <p>Five week course in London</p>
+                    <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+                </div>
+
+                <div class="class-item">
+                    <img src="/Tuan02/img/teriyaki.jpg" alt="Teriyaki Sauce">
+                    <h2><a href="#">Sauces Masterclass</a></h2>
+                    <p>One day workshop</p>
+                    <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+                </div>
+            </section>
+
+            <aside>
+                <section class="recipes">
+                    <h3>Popular Recipes</h3>
+                    <ul>
+                        <li><a href="#">Yakitori (grilled chicken)</a></li>
+                        <li><a href="#">Tsukune (minced chicken patties)</a></li>
+                        <li><a href="#">Okonomiyaki (savory pancakes)</a></li>
+                        <li><a href="#">Mizutaki (chicken stew)</a></li>
+                    </ul>
+                </section>
+
+                <section class="contact">
+                    <h3>Contact</h3>
+                    <p>Yoko's Kitchen<br>27 Redchurch Street<br>Shoreditch<br>London E2 7DP</p>
+                </section>
+            </aside>
+        </main>
+
+        <footer>
+            <p>&copy; 2011 Yoko's Kitchen</p>
+        </footer>
+    </div>
+</body>
+</html>
